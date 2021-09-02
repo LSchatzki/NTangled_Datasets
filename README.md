@@ -27,5 +27,7 @@ The datasets consist of trained weights for a hardware efficient (HWE) type ansa
 
 To use this dataset download and load the desired weights into a program. From there use these weights in a HWE ansatz. Generate a state by inputting either a computational basis state or arbitrary product state into the ansatz.
 
+<img src="https://github.com/LSchatzki/QuMEnt_Datasets/blob/9b652b8f2b1724f98a1fdd218a29e12c71271abd/overview.png" align="right" alt="State generation through parameterized quantum circuits and state classification through quantum convolutional neural networks." width="300"/>
+
 ## Ansatz Depth Learning
 This dataset consists of parameters for another HWE ansatz uniformly drawn from 0 to 2pi. The goal here is to determine the depth of ansatz a state came from. While this dataset is easy to generate, we provide random samples here to fascilitate direction comparision between algorithms.
