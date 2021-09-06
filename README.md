@@ -20,7 +20,7 @@ Data in .txt files is stored in JSON formatting and can be loaded via
 
 `data = json.load('path/to/file')`
 
-Entangled state generator data files have the following naming convention: 'qubits_ansatz_(goalCE\* 100)_depth_weights.npy(txt)'
+Entangled state generator data files have the following naming convention: 'ansatz_qubits_(goalCE\* 100)_depth_weights.npy(txt)'
 
 ## Entangled State Generation and Datasets
 Here we consider training a parameterized quantum circuit to output states with a desired amount of entanglement. To quantify entanglement we use the concentratable entanglement, a multipartite entanglement measure (<a href="https://arxiv.org/abs/2104.06923">arXiv:2104.06923</a>).
