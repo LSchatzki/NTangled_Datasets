@@ -36,6 +36,6 @@ Further details about each ansatz, including proper input distributions and pseu
 ![Ansatzes for Entangled State Generation](https://github.com/LSchatzki/NTangled_Datasets/blob/main/Assets/generator_ansatzes.png)
 
 ## Ansatz Depth Learning
-In this task one takes a state generated via some number of layers of an ansatz and tries to determine what depth the ansatz was. Note that the input is not a fixed state, but rather a random product state. We include pseudocode below for the ansatz.
+In this task one takes a state generated via some number of layers of an ansatz and tries to determine what depth the ansatz was. Note that the input is not a fixed state, but rather a random product state. We include pseudocode below for the ansatz. Note that CNOT(i,j) indicates a controlled not with register i as the control and j as the target. U3 indicates an arbitrary single qubit unitary on register i.
 
 ![Depth Pseudocode](https://github.com/LSchatzki/NTangled_Datasets/blob/main/Assets/depth_learning_hwe_pseudocode.png)
