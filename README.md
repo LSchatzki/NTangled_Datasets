@@ -1,4 +1,4 @@
-# QuMEnt Datasets
+# NTangled Datasets
 Entanglement-based datasets and generators for quantum machine learning.
 
 ## Motivation
