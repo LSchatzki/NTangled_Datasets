@@ -18,7 +18,7 @@ All datasets in this repository are provided in both Numpy (.npy) and txt format
 
 Data in .txt files is stored in JSON formatting and can be loaded via
 
-`data = json.load('path/to/file')
+`data = json.load('path/to/file')`
 
 Entangled state generator data files have the following naming convention: 'qubits_ansatz_goalCE\* 100_depth_weights.npy(txt)'
 
