@@ -27,7 +27,7 @@ Here we consider training a parameterized quantum circuit to output states with 
 
 The datasets consist of trained weights for three ansatzes--hardware efficient, strongly entangling, and convolutional--with various numbers of qubits, depths, and goal values of entanglement.
 
-To use this dataset download and load the desired weights. From there, feed states from the input distribution into a parameterized circuit using the provided values. The outputs will be entangled states.
+To use this dataset download and load the desired weights. From there, feed states from the input distribution into a parameterized circuit using the provided parameters. The outputs will be entangled states.
 
 Further details about each ansatz, including proper input distributions and pseudocode for implementation, are provided in their respective subfolders.
 
