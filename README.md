@@ -12,11 +12,13 @@ different amounts and types of multipartite entanglement.
 
 ## Data Formatting
 
-All datasets in this repository are provided in both Numpy (.npy) and txt formats. Loading from the .npy files is easiest; simply perform
+All datasets in this repository are provided in both Numpy (.npy) and txt formats. Loading from the .npy files is easy; simply perform
 
 `data = np.load('path/to/file')`
 
-Data in .txt files requires more careful loading as will be explained below.
+Data in .txt files is stored in JSON formatting and can be loaded via
+
+`data = json.load('path/to/file')
 
 Entangled state generator data files have the following naming convention: 'qubits_ansatz_goalCE\* 100_depth_weights.npy(txt)'
 
