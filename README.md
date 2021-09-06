@@ -36,4 +36,6 @@ Further details about each ansatz, including proper input distributions and pseu
 ![Ansatzes for Entangled State Generation](https://github.com/LSchatzki/NTangled_Datasets/blob/main/Assets/generator_ansatzes.png)
 
 ## Ansatz Depth Learning
-This dataset consists of parameters for another HWE ansatz uniformly drawn from 0 to 2pi. The goal here is to determine the depth of ansatz a state came from. While this dataset is easy to generate, we provide random samples here to fascilitate direction comparision between algorithms.
+In this task one takes a state generated via some number of layers of an ansatz and tries to determine what depth the ansatz was. Note that the input is not a fixed state, but rather a random product state. We include pseudocode below for the ansatz.
+
+![Depth Pseudocode](https://github.com/LSchatzki/NTangled_Datasets/blob/main/Assets/depth_learning_hwe_pseudocode.png)
