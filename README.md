@@ -1,5 +1,5 @@
 # NTangled Datasets
-Entanglement-based quantum datasets and generators for quantum machine learning.
+Entanglement-based quantum datasets and generators for quantum machine learning. <a href="https://arxiv.org/abs/2109.03400">Link to paper</a>.
 
 ## Motivation
 High quality, large-scale, datasets have played a crucial role in the development and success of classical machine learning. While most proposed novel 
